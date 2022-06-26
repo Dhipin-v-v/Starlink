@@ -1,0 +1,475 @@
+   *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+html,body{
+   font-family: DIN_Bold,Arial,Verdana,sans-serif;
+}
+
+#container1{
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-image: url(Marketing_LandingFeatured.jpg);
+   background-size: cover;
+}
+
+#box1-portion1{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   /* background-color: bisque; */
+   height: 221px
+}
+
+#left-header{
+   width: 30%;
+   /* background-color: red; */
+}
+
+#mid-header{
+   padding-top: 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-between;
+   width: 40%;
+}
+
+h1{
+   font-size: 45px;
+   color: white;
+}
+
+
+#mid-header p{
+   font-size: 14px;
+   color: white;
+   text-align: center;
+   letter-spacing: 0.5px;
+   line-height: 1.6em;
+}
+
+p{
+   font-size: 14px;
+   color: white;
+   letter-spacing: 0.5px;
+   line-height: 1.6em;
+}
+
+#starlink-logo{
+   width: 110px;
+}
+
+#right-header{
+   padding-top: 45px;
+   padding-left: 20px;
+   padding-right: 58px;
+   /* background-color: brown; */
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-around;
+   width: 30%;   
+}
+
+#right-header h4{
+   color: white;
+}
+
+#right-header a{
+ text-decoration: none;
+ color: white;
+}
+
+#right-header a:hover{
+   color: rgb(175, 175, 175);
+   transition: 0.1s;
+  }
+
+
+#box1-portion2{
+   height: 165px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 25px;
+}
+
+#box1-portion2 a{
+   font-size: 14px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-weight: 100;
+}
+
+#box1-portion2-footer{
+   font-size: 10px;
+   color: #888;
+}
+
+#box1-portion2-footer a{
+   font-size: 10px;
+   text-decoration: none;
+   font-weight: bold;
+   color: rgb(170, 170, 170);
+}
+
+#input-box input{
+   width: 416px;
+   height: 50px;
+   background-color: rgba(255, 255, 255, 0.137);
+   text-align: start;
+   padding-left: 10px;
+   border: white;
+}
+
+
+#input-box button{
+   color: black;
+   background-color: rgba(255, 255, 255, 0.859);
+   height: 50px;
+   width: 186px;
+}
+
+#input-box button:hover{
+   background-color: rgba(255, 255, 255, 0.642);
+   transition: 0.1s;
+}
+
+#container2{
+   display: flex;
+   flex-direction: column;
+   background-image: url(Marketing_LandingHighspeed.jpg) ;
+   background-size: cover;
+   height: 764px;
+ 
+}
+
+#container2-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 35%;
+   margin-top: 219px;
+   margin-left: 840px;
+   height: 350px;
+   align-items: flex-start;
+   
+}
+
+button{
+   color: white;
+   border-radius: 5px;
+   border: 2px solid white;
+   background-color: rgba(136, 136, 136, 0);
+   height: 50px;
+}
+
+#container2-content button{
+   color: white;
+   width: 290px;
+   border-radius: 5px;
+   border: 2px solid white;
+   background-color: rgba(136, 136, 136, 0);
+}
+
+#container2-content button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s;
+}
+
+#container3{
+   height: 784px;
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+ 
+}
+
+#container3-left{ 
+   padding-left: 140px;
+   padding-right: 80;
+   padding-top: 236px;
+   padding-bottom: 236px;
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   justify-content: space-between;
+}
+
+#container3-left button{
+   width: 225px;
+}
+
+#container3-left button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s;
+}
+
+#container3-right{
+   width: 50%;
+}
+
+#container3-right img{
+   width: 100%;
+   height: 784px;
+}
+
+#container3 a{
+   color: white;
+   font-weight: bold;
+}
+
+
+#container4{
+   height: 784px;
+   display: flex;
+   flex-direction: row;
+ 
+}
+
+#container4-right{
+   width: 50%;
+   background-color: black;
+   height: 784px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-left: 80px;
+   padding-top: 236px;
+   padding-bottom: 236px;
+}
+
+#container4-right button{
+   color: white;
+   width: 290px;
+   border-radius: 5px;
+   border: 2px solid white;
+   background-color: rgba(136, 136, 136, 0);
+}
+
+#container4-right button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s;
+}
+
+
+#container4 img{
+   height: 784px;
+   width: 100%;
+}
+
+#container4-left{
+   width: 50%;
+}
+
+#container5{
+   display: flex;
+   flex-direction: column;
+   background-image: url(Marketing_LandingPreserving.jpg) ;
+   background-size: cover;
+   height: 764px;
+  
+}
+
+#container5-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 35%;
+   margin-top: 219px;
+   margin-left: 140px;
+   height: 350px;
+   align-items: flex-start;
+   padding-top: 21px;
+   padding-bottom: 21px;
+}
+
+button{
+   color: white;
+   width: 290px;
+   border-radius: 5px;
+   border: 2px solid white;
+   background-color: rgba(136, 136, 136, 0);
+}
+
+#container5-content button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s;
+}
+
+
+#container6{
+   height: 784px;
+   display: flex;
+   flex-direction: row;
+  
+}
+
+#container6-right{
+   width: 50%;
+   background-color: black;
+   height: 784px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-left: 80px;
+   padding-top: 190px;
+   padding-bottom: 190px;
+}
+
+#container6-right button{
+   color: white;
+   width: 290px;
+   border-radius: 5px;
+   border: 2px solid white;
+   background-color: rgba(136, 136, 136, 0);
+}
+
+#container6-right button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s;
+}
+
+
+
+#container6 img{
+   height: 784px;
+   width: 100%;
+}
+
+#container6-left{
+   width: 50%;
+}
+
+#container7{
+   height: 854px;
+   display: flex;
+   flex-direction: row;
+   background-color: black;
+
+}
+
+#container7-left{
+   width: 50%;
+   background-color: black;
+   height: 784px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-left: 140px;
+   padding-top: 236px;
+   padding-bottom: 236px;
+}
+
+#container7-right{
+   width: 50%;
+}
+
+#container7-right img{
+   width: 100%;
+   height: 784px;
+}
+
+#container7-left button{
+   color: white;
+   width: 290px;
+   border-radius: 5px;
+   border: 2px solid white;
+   background-color: rgba(136, 136, 136, 0);
+}
+
+#container7-left button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s;
+}
+
+
+#pre-footer{
+   height: 233px;
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+
+}
+
+#left-pre-footer{
+   background-color: black;
+   width: 49.99%;
+}
+
+#right-pre-footer{
+   background-color: rgb(0, 0, 0);
+   width: 49.99%;
+}
+
+#mid-footer{
+   height: 115px;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+
+#pre-footer-bottom{
+   height: 40px;
+   background-color: black;
+}
+
+
+#mid-footer button{
+   color: white;
+   width: 290px;
+   border-radius: 5px;
+   border: 2px solid white;
+   background-color: rgba(136, 136, 136, 0);
+}
+
+#mid-footer button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s;
+}
+
+
+#footer{
+   padding-left: 32px;
+   padding-right: 32px;
+   padding-bottom: 40px;
+   height: 230px;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-end
+}
+
+#footer p {
+   color: #757575;
+   font-size: 10px;
+}
+#footer a {
+   text-decoration: none;
+   color: white;
+   font-size: 11px;
+   font-weight: 600;
+}
+
+#left-footer{
+   margin-right: 191px;
+}
+
+button:hover{
+   background-color: rgba(255, 255, 255, 0.177);
+   transition: 0.1s; 
+}
+
